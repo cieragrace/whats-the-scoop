@@ -1,0 +1,1 @@
+import './ArticleDetails.css'
