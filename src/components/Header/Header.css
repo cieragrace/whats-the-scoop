@@ -1,0 +1,17 @@
+.header-container {
+  height: 17%;
+  width: 100%;
+}
+
+.whats-the-scoop {
+  font-size: 2em;
+  color: indigo;
+}
+
+.header-mid {
+  font-size: 1em;
+}
+
+.todays-news{
+  font-size: 1.33em;
+}
