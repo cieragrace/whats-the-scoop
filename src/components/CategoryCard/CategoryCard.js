@@ -1,12 +1,13 @@
 import './CategoryCard.css'
+import { Link } from 'react-router-dom'
 
-const CategoryCard = () => {
+const CategoryCard = ({category}) => {
 
   return (
-    <div className='cat-card-link'>
+    <Link to= '/' className='cat-card-link'>
       <div className='cat-card-img'></div>
-      <p>category</p>
-    </div>
+      <p>{`${category}`}</p>
+    </Link>
   )
 }
 

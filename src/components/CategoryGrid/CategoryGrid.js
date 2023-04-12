@@ -1,23 +1,21 @@
 import './CategoryGrid.css'
 import CategoryCard from '../CategoryCard/CategoryCard'
 
-const CategoryGrid = () => {
-const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food", 
-                    "Health", "Home", "Insider", "Magazine", "Movies", "NY Region", 
-                    "Obituaries", "Opinion", "Politics", "Real Estate", "Science", 
-                    "Sports", "Sunday Review", "Technology", "Theater", "T-Magazine", 
-                    "Travel", "Upshot", "US", "World"]
+const CategoryGrid = ({categories}) => {
 
-const catCard = () => {
-    const makeCard = categories.map(category => {
+const catCard = categories.map((category, index) => {
       return(
-        <CategoryCard />
+        <CategoryCard 
+        key={index}
+        id={index}
+        category={category}
+        />
       )
     })
-}
+
   return(
-    <section>
-      { catCard }
+    <section className='grid-container'>
+      {catCard}
     </section>
   )
 }
