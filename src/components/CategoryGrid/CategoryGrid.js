@@ -1,7 +1,7 @@
 import './CategoryGrid.css'
 import CategoryCard from '../CategoryCard/CategoryCard'
 
-const CategoryGrid = ({categories}) => {
+const CategoryGrid = ({categories, categoryAPICall}) => {
 
 const catCard = categories.map((category, index) => {
       return(
@@ -9,6 +9,7 @@ const catCard = categories.map((category, index) => {
         key={index}
         id={index}
         category={category}
+        categoryAPICall={categoryAPICall}
         />
       )
     })

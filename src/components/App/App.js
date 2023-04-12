@@ -41,6 +41,7 @@ const categoryAPICall = (category) => {
           path="/:category"
           render={() => (
             <CategoryPage 
+              stories={storyList}
             />
           )}  
         />
