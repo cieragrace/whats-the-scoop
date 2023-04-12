@@ -3,7 +3,7 @@ import Home from '../Home/Home'
 import getAPIData from '../../apiCalls'
 import CategoryPage from '../CategoryCard/CategoryCard'
 import { Switch, Route } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const App = () => {
 const [storyList, setStoryList] = useState([])
@@ -13,15 +13,20 @@ const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food
                   "Sports", "Sunday Review", "Technology", "Theater", "T-Magazine", 
                   "Travel", "Upshot", "US", "World"]
 
-const categoryAPICall = (category) => {
-  getAPIData(category)
-  .then((data) => {
-    setStoryList(data)
-  })
-  .catch((error) => {
-    console.log(error)
-  })
-}
+                  
+  const categoryAPICall = (category) => {
+    getAPIData(category)
+    .then((data) => {
+      setStoryList(data)
+    })
+    .catch((error) => {
+      console.log(error)
+    })
+  }
+                  
+  const useEffect = () => {
+    console.log(storyList)
+  }
 
   return (
     <main className='app-container'>
