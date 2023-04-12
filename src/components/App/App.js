@@ -1,6 +1,6 @@
 import './App.css'
 import Home from '../Home/Home'
-import CategoryGrid from '../CategoryGrid/CategoryGrid'
+import { Switch, Route } from 'react-router-dom'
 
 const App = () => {
 const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food", 
@@ -9,10 +9,19 @@ const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food
                   "Sports", "Sunday Review", "Technology", "Theater", "T-Magazine", 
                   "Travel", "Upshot", "US", "World"]
   return (
-    <div className='app-container'>
-      <Home  />
-      <CategoryGrid categories={categories}/>
-    </div>
+    <main className='app-container'>
+      <Switch>
+        <Route
+          exact
+          path="/"
+          render={() => (
+            <Home 
+              categories={categories} 
+            />
+          )}
+        />
+      </Switch>
+    </main>
   )
 }
 export default App
