@@ -3,19 +3,16 @@ import CategoryCard from '../CategoryCard/CategoryCard'
 
 const CategoryGrid = ({categories, categoryAPICall, stories}) => {
 
-// const transformedCategories = categories.map(category => {
-//   console.log(category.toLowerCase().split(' ').join(''))
-// })
-
 const catCards = categories.map((category, index) => {
       return(
         <CategoryCard 
+        className='cat-card'
         key={index}
         id={index}
         category={category}
         categoryAPICall={categoryAPICall}
         categories={categories}
-        // transformedCategories={transformedCategories}
+        data-cy={`category-card-${category}`}
         />
       )
     })
