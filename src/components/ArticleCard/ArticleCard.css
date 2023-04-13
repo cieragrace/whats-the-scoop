@@ -1,5 +1,24 @@
 .article-card-link {
-width: 60%;
+width: 80%;
 height: 15%;
 Border: 1px solid indigo;
+margin: 5px;
+text-decoration: none;
+color: black;
+background-color: lightgray;
+}
+
+.article-card-link:hover {
+  text-decoration: none;
+  height: 18%;
+  width: 85%;
+  background-color: lightsteelblue;
+}
+
+.story-title {
+  font-size: 1.25em;
+}
+
+.abstract-container {
+  overflow: auto;
 }

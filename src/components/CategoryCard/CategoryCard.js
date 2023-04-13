@@ -11,7 +11,7 @@ const handleClick = () => {
 
   return (
     <Link to= {`/category/${category}`} className='cat-card-link' onClick={() => handleClick()}>
-        <div className='cat-card-img' ></div>
+        {/* <div className='cat-card-img' ></div> */}
         <p>{`${category}`}</p>
     </Link>
   )

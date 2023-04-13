@@ -5,7 +5,8 @@ const ArticleCard = ({story}) => {
 
 return (
   <Link to='/' className='article-card-link'>
-    <h2>{`${story.title}`}</h2>
+    <h2 className='story-title'>{`${story.title}`}</h2>
+    <p className='abstract-container'>{`${story.abstract}`}</p>
   </Link>
   )
 }

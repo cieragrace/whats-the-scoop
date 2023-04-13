@@ -1,6 +1,19 @@
 .cat-card-link {
-  height: 25%;
-  width: 33%;
-  border: 1px black ;
+  height: 8%;
+  width: 20%;
+  border: 1px solid black ;
   text-align: center;
+  margin: 5px;
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.cat-card-link:hover {
+  text-decoration: none;
+  height: 11%;
+  width: 25%;
+  background-color: lightslategrey;
+  color: black;
 }

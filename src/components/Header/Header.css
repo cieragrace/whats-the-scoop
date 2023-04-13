@@ -5,20 +5,30 @@
   align-items: center;
   height: 33%;
   width: 100%;
+  margin: 0;
 }
 
 .whats-the-scoop {
-  font-size: 2em;
-  color: indigo;
+  font-size: 2.5em;
+  color: black;
+  font-weight: lighter;
+  height: 40%;
 }
 
 .header-mid {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-size: 1em;
+  height: 25%;
+  font-size: 1.5em;
+  /* margin: 5px; */
+}
+
+.extra-extra {
+  text-decoration: wavy;
 }
 
 .todays-news{
   font-size: 1.33em;
+  height: 15%;
 }
