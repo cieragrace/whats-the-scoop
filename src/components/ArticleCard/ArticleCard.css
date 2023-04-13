@@ -49,3 +49,10 @@ align-items: center;
   border-radius: 30px;
   margin-bottom: 2%;
 }
+
+@media screen and (max-width: 886px) {
+  .article-card-link {
+    width: 90%;
+  }
+}
+
