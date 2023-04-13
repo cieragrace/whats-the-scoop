@@ -2,7 +2,6 @@ import './CategoryPage.css'
 import ArticleCard from '../ArticleCard/ArticleCard'
 
 const CategoryPage = ({stories}) => {
-// const [singleStory, setSingleStory] = useState({})
 
 const storyCard = stories.map((story, index) => {
   console.log(story)

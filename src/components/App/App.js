@@ -1,6 +1,7 @@
 import './App.css'
 import Home from '../Home/Home'
 import ArticleDetails from '../ArticleDetails/ArticleDetails'
+import ArticleCard from '../ArticleCard/ArticleCard'
 import Header from '../Header/Header'
 import getAPIData from '../../apiCalls'
 import CategoryPage from '../CategoryPage/CategoryPage'
@@ -9,8 +10,7 @@ import { useState, useEffect } from 'react'
 
 const App = () => {
 const [stories, setStoryList] = useState([])
-const [data, setData] = useState([])
-// const [error, setError] = useState("")
+const [chosenCategory, setCategory] = useState('')
 
 const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food", 
                   "Health", "Home", "Insider", "Magazine", "Movies", "NY Region", 
@@ -21,25 +21,16 @@ const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food
                   
 const categoryAPICall = (category) => {
   getAPIData(category)
-  .then((data) => setStoryList(data.results))
+  .then((data) => {
+    setStoryList(data.results)
+    setCategory(category)
+  })
   .catch((error) => console.log("There is an error with the data"))
 }
-
  
 useEffect(() => {
   console.log("app-stories", stories);
 }, [stories]);
-
-// showStoryDetails = (id) => {
-//   const findStory = stories.find(story => story.id === id)
-//   getStoryAPICall(`stories/${story.id}`)
-//   .then((data) => {
-//     console.log('data', data)
-//     setSingleStory(data)
-//     console.log(singleStory)
-//     })
-//     .catch((error) => console.log(error))
-//   }
 
   return (
     <main className='app-container'>
@@ -56,25 +47,16 @@ useEffect(() => {
           )}
         />
         <Route 
-          
+          exact
           path="/category/:category"
           render={() => (
             <>
             <Header />
             <CategoryPage
-              stories={stories} 
+              stories={stories}
               />
               </>
           )}  
-        />
-        <Route 
-        exact
-        path="/:category/:id"
-        render={() => (
-          <ArticleDetails 
-            // storyID={match.params.id}
-          />
-        )}
         />
       </Switch>
     </main>
