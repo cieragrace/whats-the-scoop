@@ -1,0 +1,9 @@
+.category-page-container {
+  height: 82vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  align-items: center;
+  text-align: center;
+}

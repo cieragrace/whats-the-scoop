@@ -1,11 +1,17 @@
 import './CategoryCard.css'
 import { Link } from 'react-router-dom'
 
-const CategoryCard = ({category, categoryAPICall, transformedCategories}) => {
+const CategoryCard = ({category, categoryAPICall}) => {
+
+const handleClick = () => {
+  const transformedCategory = category.toLowerCase().split(' ').join('')
+  console.log(transformedCategory)
+  categoryAPICall(transformedCategory)
+}
 
   return (
-    <Link to= '/:category' className='cat-card-link'>
-        <div className='cat-card-img' onClick={() => categoryAPICall(transformedCategories)}></div>
+    <Link to= {`/category/${category}`} className='cat-card-link' onClick={() => handleClick()}>
+        <div className='cat-card-img' ></div>
         <p>{`${category}`}</p>
     </Link>
   )
