@@ -10,6 +10,7 @@ const storyCard = stories.map((story, index) => {
       key={index}
       id={index}
       story={story}
+      data-cy={`article-card-${index}`}
     />
   )
 })
