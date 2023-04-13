@@ -2,12 +2,13 @@
   height: 33%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: white;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 
-.logo-container, .logo-container-2 {
+.logo-container, 
+.logo-container-2 {
   width: 19%;
   border-left: 5px;
   background-repeat: no-repeat;
@@ -54,4 +55,55 @@
   font-size: 1.33em;
   height: 15%;
   color: #53B77D
+}
+
+@media screen and (max-width: 900px) {
+  .whats-the-scoop {
+    margin-top: 15%;
+    font-size: 3em;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .whats-the-scoop {
+    font-size: 2.5em;
+    height: 40%;
+  }
+
+  .logo-container {
+    width: 25%;
+  } 
+
+  .logo-container-2 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .header-container {
+    height: 25%;
+  }
+
+  .whats-the-scoop {
+    font-size: 2em;
+  }
+
+  .todays-news{
+    font-size: .75em;
+  }
+}
+
+@media screen and (max-width: 557px) {
+  .whats-the-scoop {
+    margin-top: 15%;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .whats-the-scoop {
+    margin-top: 15%;
+    font-size: 1em;
+  }
 }
