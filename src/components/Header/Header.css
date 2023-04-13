@@ -33,7 +33,8 @@
 
 .whats-the-scoop {
   font-size: 3.6em;
-  color: #F5BCBE;
+  color: #DE736E;
+  text-shadow: 2px 2px 3px black;
   font-weight: bolder;
   height: 60%;
 }
