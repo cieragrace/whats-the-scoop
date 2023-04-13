@@ -1,0 +1,304 @@
+ {
+"results": [
+        {
+            "section": "dining",
+            "subsection": "drinks",
+            "title": "Superbueno, in the East Village, Wants to Redefine the Agave Bar",
+            "abstract": "A veteran of the downtown cocktail scene, Ignacio Jimenez will focus on Mexican ingredients and hospitality.",
+            "url": "https://www.nytimes.com/2023/04/12/dining/drinks/superbueno-east-village-agave-mexican-american-bar.html",
+            "uri": "nyt://article/9415a8bb-f796-5fc5-a69e-e40a993bedae",
+            "byline": "By Robert Simonson",
+            "item_type": "Article",
+            "updated_date": "2023-04-13T09:09:51-04:00",
+            "created_date": "2023-04-12T17:15:57-04:00",
+            "published_date": "2023-04-12T17:15:57-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Bars and Nightclubs",
+                "Tequila",
+                "Cocktails and Mixed Drinks",
+                "Mexican Food (Cuisine)",
+                "Mexican-Americans"
+            ],
+            "org_facet": [
+                "Superbueno (Manhattan, NY, Bar)"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "East Village (Manhattan, NY)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/12/multimedia/12agave-bar-promo-qmvc/12agave-bar-promo-qmvc-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1363,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "DeSean McClinton-Holland for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/12/multimedia/12agave-bar-promo-qmvc/12agave-bar-promo-qmvc-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "DeSean McClinton-Holland for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/12/multimedia/12agave-bar-promo-qmvc/12agave-bar-promo-qmvc-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "DeSean McClinton-Holland for The New York Times"
+                }
+            ],
+            "short_url": ""
+        },
+        {
+            "section": "dining",
+            "subsection": "",
+            "title": "Restaurant Review: Marcus Samuelsson Explores the Sea, Mermaids in Tow",
+            "abstract": "At Hav & Mar, the chef presents a seafood-focused menu and sculptures of Black mermaids by the artist Derrick Adams.",
+            "url": "https://www.nytimes.com/2023/04/11/dining/restaurant-review-marcus-samuelsson-hav-and-mar.html",
+            "uri": "nyt://article/251c4d22-e3aa-565d-9efa-e2282b88d535",
+            "byline": "By Pete Wells",
+            "item_type": "Article",
+            "updated_date": "2023-04-12T00:14:03-04:00",
+            "created_date": "2023-04-11T15:20:06-04:00",
+            "published_date": "2023-04-11T15:20:06-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Restaurants",
+                "Seafood"
+            ],
+            "org_facet": [
+                "Hav & Mar (Manhattan, NY, Restaurant)"
+            ],
+            "per_facet": [
+                "Samuelsson, Marcus"
+            ],
+            "geo_facet": [
+                "Chelsea (Manhattan, NY)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/12/multimedia/11rest-marcus-01altalt-vtkj/11rest-marcus-01altalt-vtkj-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Hav & Mar opened last year in Chelsea.",
+                    "copyright": "Lanna Apisukh for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/12/multimedia/11rest-marcus-01altalt-vtkj/11rest-marcus-01altalt-vtkj-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Hav & Mar opened last year in Chelsea.",
+                    "copyright": "Lanna Apisukh for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/12/multimedia/11rest-marcus-01altalt-vtkj/11rest-marcus-01altalt-vtkj-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Hav & Mar opened last year in Chelsea.",
+                    "copyright": "Lanna Apisukh for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/43tcEg6"
+        },
+        {
+            "section": "dining",
+            "subsection": "",
+            "title": "11 Cheap Vegetarian Recipes That Don’t Sacrifice Flavor",
+            "abstract": "Because you’re not made of money.",
+            "url": "https://www.nytimes.com/article/cheap-vegetarian-recipes.html",
+            "uri": "nyt://article/59bff86d-3974-5f50-af2f-b9e477a3c78e",
+            "byline": "By Tanya Sichynsky",
+            "item_type": "Article",
+            "updated_date": "2023-04-12T16:37:58-04:00",
+            "created_date": "2023-04-12T16:08:36-04:00",
+            "published_date": "2023-04-12T16:08:36-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "internal-cooking-roundup",
+                "Recipes",
+                "Cooking and Cookbooks",
+                "Content Type: Service"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/07/multimedia/12cheapveg-roundup-fried-eggs-and-potatoes/07nd-fried-eggs-and-potatoes-lbwt-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Linda Xiao for The New York Times. Food Stylist: Rebecca Jurkevich."
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/07/multimedia/12cheapveg-roundup-fried-eggs-and-potatoes/07nd-fried-eggs-and-potatoes-lbwt-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Linda Xiao for The New York Times. Food Stylist: Rebecca Jurkevich."
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/07/multimedia/12cheapveg-roundup-fried-eggs-and-potatoes/07nd-fried-eggs-and-potatoes-lbwt-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Linda Xiao for The New York Times. Food Stylist: Rebecca Jurkevich."
+                }
+            ],
+            "short_url": "https://nyti.ms/41lxFY7"
+        },
+        {
+            "section": "dining",
+            "subsection": "",
+            "title": "Mickey Bars, Turkey Legs and the Obsession With Disney Food",
+            "abstract": "A fascination with the theme parks’ cuisine has spawned fan websites and snagged our critic, who has a Disney back story of her own.",
+            "url": "https://www.nytimes.com/2023/04/10/dining/disneyland-disney-world-restaurants-food.html",
+            "uri": "nyt://article/bb12c2d6-490e-5ec7-8f96-c72ed05198b6",
+            "byline": "By Tejal Rao",
+            "item_type": "Article",
+            "updated_date": "2023-04-12T00:07:12-04:00",
+            "created_date": "2023-04-10T11:17:24-04:00",
+            "published_date": "2023-04-10T11:17:24-04:00",
+            "material_type_facet": "",
+            "kicker": "critic’s Notebook",
+            "des_facet": [
+                "internal-sub-only",
+                "Amusement and Theme Parks",
+                "Food",
+                "Restaurants",
+                "Snack Foods"
+            ],
+            "org_facet": [
+                "Disneyland (Anaheim, Calif)",
+                "Disney, Walt, World (Lake Buena Vista, Fla)"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/10/multimedia/10disney-food-03-kmhp/10disney-food-03-kmhp-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Carnation Cafe, a Victorian-themed restaurant on Main Street, U.S.A., serves popular Mickey-shaped waffles.",
+                    "copyright": "Gabriella Angotti-Jones for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/10/multimedia/10disney-food-03-kmhp/10disney-food-03-kmhp-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Carnation Cafe, a Victorian-themed restaurant on Main Street, U.S.A., serves popular Mickey-shaped waffles.",
+                    "copyright": "Gabriella Angotti-Jones for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/10/multimedia/10disney-food-03-kmhp/10disney-food-03-kmhp-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Carnation Cafe, a Victorian-themed restaurant on Main Street, U.S.A., serves popular Mickey-shaped waffles.",
+                    "copyright": "Gabriella Angotti-Jones for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/43fu3c1"
+        },
+        {
+            "section": "dining",
+            "subsection": "drinks",
+            "title": "Six Places to Drink Wine in Napa Valley and Sonoma",
+            "abstract": "The restaurants in California wine country can be superexpensive or somewhat dull, but these places offer great combinations of intrigue and value.",
+            "url": "https://www.nytimes.com/2023/04/06/dining/drinks/sonoma-napa-valley-restaurants-wine.html",
+            "uri": "nyt://article/54bed229-7228-568e-bc68-d4435887cdd4",
+            "byline": "By Eric Asimov",
+            "item_type": "Article",
+            "updated_date": "2023-04-12T14:43:58-04:00",
+            "created_date": "2023-04-06T11:00:52-04:00",
+            "published_date": "2023-04-06T11:00:52-04:00",
+            "material_type_facet": "",
+            "kicker": "The Pour",
+            "des_facet": [
+                "Wines",
+                "Restaurants",
+                "Content Type: Service"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Napa (Calif)",
+                "Sonoma (Calif)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/06/multimedia/06pour-torc-04-wtmq/06pour-torc-04-wtmq-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1536,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Kelsey McClellan for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/06/multimedia/06pour-torc-04-wtmq/06pour-torc-04-wtmq-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Kelsey McClellan for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/04/06/multimedia/06pour-torc-04-wtmq/06pour-torc-04-wtmq-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Kelsey McClellan for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3MjvbVV"
+        }
+      ]
+    }
