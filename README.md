@@ -64,17 +64,17 @@ Clean, well thought out code
 
 ## Wins And Challenges
 -Wins- 
-Was able to get to 90% of desired finished project in just under 8 hours
-Was able to work through blockers in a appropriate amount of time
-Had fun with the freedom of the styling
+- Was able to get to 90% of desired finished project in just under 8 hours
+- Was able to work through blockers in a appropriate amount of time
+- Had fun with the freedom of the styling
 
 -Challenges-
-Hit a few road blocks in cypress testing that slowed down my finished time
-Planning a project that can be completed in the alloted time, narrowing the scope
-Wasn't left with time for accessabilty corrections
+- Hit a few road blocks in cypress testing that slowed down my finished time
+- Planning a project that can be completed in the alloted time, narrowing the scope
+- Wasn't left with time for accessabilty corrections
 
 ## Future Sprints
-Add Saved Stories Tab
-Ability to Add and delete saved stories
-Update Header Styling
-Article Details page with Link to NYT story inluding story image
+- Add Saved Stories Tab
+- Ability to Add and delete saved stories
+- Update Header Styling
+- Article Details page with Link to NYT story inluding story image
