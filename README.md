@@ -65,7 +65,7 @@ https://whats-the-scoop.herokuapp.com/
 ## Learning Goals
 
 - A strong understanding of React JS and Front-End best practices
-- Your ability to prioritize for MVP
+- Ability to prioritize for MVP
 - An understanding of basic usability practices and standards
 - A clear hierarchy of information
 - Clean, well thought out code
