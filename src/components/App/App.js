@@ -30,10 +30,6 @@ const categoryAPICall = (category) => {
   .catch((error) => console.log("There is an error with the data"))
 }
 
-useEffect(() => {
-  console.log("app-stories", stories);
-}, [stories]);
-
   return (
     <main className='app-container'>
       <Switch>
