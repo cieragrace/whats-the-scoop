@@ -4,7 +4,6 @@ import ArticleCard from '../ArticleCard/ArticleCard'
 const CategoryPage = ({stories}) => {
 
 const storyCard = stories.map((story, index) => {
-  console.log(story)
   return(
     <ArticleCard
       key={index}
