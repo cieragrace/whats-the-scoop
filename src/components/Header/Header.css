@@ -4,19 +4,22 @@
   display: flex;
   justify-content: space-evenly;
   background-color: white;
-  padding-left: 2%;
+  /* padding-left: 2%; */
 }
 
-.logo-container, 
-.logo-container-2 {
-  width: 19%;
+.logo-container {
+  width: 12%;
   border-left: 5px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/public/rainbowicecream.png');
+  background-image: url('/public/reverseRainbow.jpg');
 }
 
 .logo-container-2 {
+  width: 12%;
+  border-left: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
   margin-top: 2px;
   background-image: url('/public/backwards.png');
 }
@@ -27,8 +30,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 60%;
+  width: 65%;
   margin: 0;
+  margin-right: 2%;
 }
 
 .whats-the-scoop {
@@ -37,6 +41,7 @@
   text-shadow: 2px 2px 3px black;
   font-weight: bolder;
   height: 60%;
+  margin-top: 10px;
 }
 
 .header-mid {
