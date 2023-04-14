@@ -4,9 +4,13 @@ What's the Scoop is a news app that is meant to be checking the news less dreary
 
 This project was built out over one day or 8 hours time
 
+## Visit Site
+https://whats-the-scoop.herokuapp.com/
+
 ## Table of Contents
 
   - [Abstract](#abstract)
+  - [Visit Site](#visit-site)
   - [Preview](#preview)
   - [API Endpoint Examples](#api-endpoint-examples)
   - [Setup](#setup)
