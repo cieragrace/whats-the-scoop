@@ -12,7 +12,7 @@ const catCards = categories.map((category, index) => {
         category={category}
         categoryAPICall={categoryAPICall}
         categories={categories}
-        data-cy={`category-card-${category}`}
+        data-cy={`${category}`}
         />
       )
     })

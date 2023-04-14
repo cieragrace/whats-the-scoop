@@ -17,17 +17,21 @@ const categories = ["Arts", "Automobiles", "Books", "Business", "Fashion", "Food
                   "Obituaries", "Opinion", "Politics", "Real Estate", "Science", 
                   "Sports", "Sunday Review", "Technology", "Theater", "T-Magazine", 
                   "Travel", "Upshot", "US", "World"]
+               
 
-                  
 const categoryAPICall = (category) => {
   getAPIData(category)
   .then((data) => {
-    setStoryList(data.results)
+    const storiesWithIdsAndIndexes = data.results.map((story, index) => ({
+      ...story,
+      id: index || index
+    }))
+    setStoryList(storiesWithIdsAndIndexes)
     setCategory(category)
   })
   .catch((error) => console.log("There is an error with the data"))
 }
- 
+
 useEffect(() => {
   console.log("app-stories", stories);
 }, [stories]);
