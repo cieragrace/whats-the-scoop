@@ -1,3 +1,6 @@
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/113853138/232094279-c3c76843-96cc-4ed3-b3bb-f90be03714a4.png">
+
+
 ## Abstract 
 
 What's the Scoop is a news app that is meant to be checking the news less dreary. Users can select from a list of topics and see all of the related top stories titles and abstracts from the NewYork Times. If the user sees a story they would like to read in full they can click to be taken directly to NYT.com
