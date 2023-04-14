@@ -1,7 +1,5 @@
 import './App.css'
 import Home from '../Home/Home'
-import ArticleDetails from '../ArticleDetails/ArticleDetails'
-import ArticleCard from '../ArticleCard/ArticleCard'
 import Header from '../Header/Header'
 import getAPIData from '../../apiCalls'
 import CategoryPage from '../CategoryPage/CategoryPage'
