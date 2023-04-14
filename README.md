@@ -36,19 +36,19 @@ https://whats-the-scoop.herokuapp.com/
   - The page will reload when you make changes.
   - You may also see any lint errors in the console.
 
-  ## Technologies
-- Javascript
-- CSS / HTML
-- VSCode
-- Git Version Control / GitHub
-- Webpack node package
-- React
-- Router
-- Google Chrome or Web Browser of User's Choice
-- Mac OS Terminal/Command Line
-- Cypress
-- Node.js
-- Heroku
+## Technologies
+  - Javascript
+  - CSS / HTML
+  - VSCode
+  - Git Version Control / GitHub
+  - Webpack node package
+  - React
+  - Router
+  - Google Chrome or Web Browser of User's Choice
+  - Mac OS Terminal/Command Line
+  - Cypress
+  - Node.js
+  - Heroku
 
 ## Project Spec
 
