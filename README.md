@@ -1,3 +1,6 @@
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/113853138/232094279-c3c76843-96cc-4ed3-b3bb-f90be03714a4.png">
+
+
 ## Abstract 
 
 What's the Scoop is a news app that is meant to be checking the news less dreary. Users can select from a list of topics and see all of the related top stories titles and abstracts from the NewYork Times. If the user sees a story they would like to read in full they can click to be taken directly to NYT.com
@@ -16,6 +19,7 @@ https://whats-the-scoop.herokuapp.com/
   - [Setup](#setup)
   - [Technologies](#technologies)
   - [Project Spec](#project-spec)
+  - [Planning](#planning)
   - [Learning Goals](#learning-goals)
   - [Wins And Challenges](#wins-and-challenges)
   - [Future Sprints](#future-sprints)
@@ -54,10 +58,14 @@ https://whats-the-scoop.herokuapp.com/
 
 [Click Here](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
+## Planning
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/113853138/232099912-5c44b9ae-081f-47c0-85a2-b348e1e3c6e5.png">
+
+
 ## Learning Goals
 
 - A strong understanding of React JS and Front-End best practices
-- Your ability to prioritize for MVP
+- Ability to prioritize for MVP
 - An understanding of basic usability practices and standards
 - A clear hierarchy of information
 - Clean, well thought out code
