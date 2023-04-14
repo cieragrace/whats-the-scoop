@@ -3,6 +3,7 @@ import Home from '../Home/Home'
 import Header from '../Header/Header'
 import getAPIData from '../../apiCalls'
 import CategoryPage from '../CategoryPage/CategoryPage'
+import ErrorPage from '../ErrorPage/ErrorPage'
 import { Switch, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
@@ -56,6 +57,7 @@ const categoryAPICall = (category) => {
               </>
           )}  
         />
+        <Route exact path="*" render={() => <ErrorPage />} />
       </Switch>
     </main>
   )

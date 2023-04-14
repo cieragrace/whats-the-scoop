@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   background-color: white;
+  padding-left: 2%;
 }
 
 .logo-container, 
