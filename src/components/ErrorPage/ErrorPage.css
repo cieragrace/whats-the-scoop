@@ -1,0 +1,27 @@
+.error-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.oh-no {
+  font-size: 3em;
+  color: #C11957;
+  height: 10%;
+}
+
+.home-link {
+  height: 10%;
+}
+
+.error-image {
+  background-image: url('/public/error-icecream.png');
+  width: 35%;
+  height: 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
